@@ -1,0 +1,514 @@
+----------------------- Aula 1 -----------------------
+
+-------- Módulos (Abertura) --------
+
+
+----------------------- Aula 2 -----------------------
+
+-------- Módulos (O curso serve pra mim?) --------
+
+
+----------------------- Aula 3 -----------------------
+
+-------- Módulos (Bibliografia recomendada) --------
+
+-> Documentação brasileira : <https://www.php.net/manual/pt_BR/>
+-> Aprendendo PHP, David Sklar
+-> Programming PHP (Creating Dynamic Web Pages), Kevin Tatroe, Peter Maclntyre & Michael Stowe
+-> Learn PHP 8 (Using MySQL, JavaScript, CSS3 and HTML5), Steve Prettyman
+-> PHP 8 Quick Scripting Reference (A Pocket Guide to PHP Web Scripting), Mikael Olsson
+-> PHP & MYSQL (server-side web development), Jon Duckett
+
+
+
+
+----------------------- Aula 4 -----------------------
+
+-------- Módulos (Evolução do PHP) --------
+
+-> PHP foi criado em 1994 por Rasmus Lerdorf
+-> PHP teve diversas versões, como: 1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0
+
+----------------------- Aula 5 -----------------------
+
+-------- Módulos (ElePHPant) --------
+
+
+----------------------- Aula 6 -----------------------
+
+-------- Módulos (Versões do PHP) --------
+
+-> 1.0 (1995)
+    -> Personal Home Page
+    -> Funcionalidades simples para um site básico
+    -> Não tinha características de linguagem em si
+-> 2.0 (1997)
+    -> Oficialmente nomeado PHP/FI 2.0
+    -> Linguagem standalone
+    -> Linguagem limitados
+-> 3.0 (1998)
+    -> Primeira versão colaborativa
+    -> Características mais relacionadas a uma linguagem
+    -> Extension API
+-> 4.0 (2000)
+    -> Zend Engine 1.0
+    -> Melhoria de performance
+    -> Aumento da modularização
+    -> Uso de super globais %_GET, %_POST, %_SESSION, etc
+-> 5.0 (2004)
+    -> Zend Engine 2.0
+    -> Primeira versão com orientação a objetos
+    -> PHP Data Objects(PDO)
+    -> Operador de exponenciação
+    -> Suporte a JSON
+    -> Namespaces, closures, garbage collection, exceptions handling
+    -> Novo depurador (phpdbg)
+-> 6.0 (2005)
+    -> Aumento da segurança e performance
+    -> Suporte nativo a Unicode
+    -> Até existiram algumas versões
+    -> Nunca recebeu uma release oficial
+-> 7.0 (2015)
+    -> Zend Engine 3.0
+    -> Performance 9x maior
+    -> Escape de códigos Unicode
+    -> Operador null coalescing ??
+    -> Declaração escalar
+    -> Operador spaceship <=>
+    -> Classes anônimas
+    -> Execessões mais modernas
+    -> Retorno de void
+    -> Libsodium
+    -> Foreign function interface
+-> 8.0 (2020)
+    -> Zend Engine 4.0
+    -> Just-In-Time compilation
+    -> Locale-independent number convertions
+    -> Named arguments
+    -> Expressão match
+    -> Operador nullsafe
+    -> Enumerations
+    -> Readonly properties
+    -> Fibers
+
+
+
+
+----------------------- Aula 7 -----------------------
+
+-------- Módulos (PHP Morreu) --------
+
+
+----------------------- Aula 8 -----------------------
+
+-------- Módulos (PHP cria qualquer coisa?) --------
+
+
+----------------------- Aula 9 -----------------------
+
+-------- Módulos (Como PHP funciona) --------
+
+-> Client-side, quem faz o processamento é a máquina do cliente
+    -> HTML, CSS, JavaScript
+    -> Desenvolvedores front-end
+-> Server-side, quem faz o processamento é o servidor para entregar ao cliente e depois processar a saída no lado do cliente
+    -> PHP, entre outros
+    -> Desenvolvedores server-side
+
+
+
+
+----------------------- Aula 10 -----------------------
+
+-------- Módulos (Requisitos de Software) --------
+
+-> Solução AMP:
+    -> Apache
+    -> MySQL
+    -> PHP
+-> Para cada distribuidora é divido em:
+    -> LAMP - Linux AMP
+    -> WAMP - Windows AMP
+    -> MAMP - Mac AMP
+    -> XAMPP - Funciona em todos
+
+----------------------- Aula 11 -----------------------
+
+-------- Módulos (Rodando PHP no celular) --------
+
+-> PHP de maneira online
+    -> <https://www.onlinephp.io>
+    -> <https://www.phpsandbox.io>
+    -> <https://www.wtools.io>
+    -> <https://www.extendsclass.com>
+    -> <https://www.w3schools.com> - PHP Online Compiler
+
+----------------------- Aula 12 -----------------------
+
+-------- Módulos (Instalação Windows) --------
+
+
+----------------------- Aula 13 -----------------------
+
+-------- Módulos (PHP no Linux) --------
+
+
+----------------------- Aula 14 -----------------------
+
+-------- Módulos (PHP no MACOS) --------
+
+
+----------------------- Aula 15 -----------------------
+
+-------- Módulos (Configurações básicas VS Code) --------
+
+
+----------------------- Aula 16 -----------------------
+
+-------- Módulos (Extensões VS Code PHP) --------
+
+
+----------------------- Aula 17 -----------------------
+
+-------- Módulos (Primeiro script em PHP) --------
+
+--- PHP ---
+-> <?php ?> - para criar uma tag PHP num código HTML (Super tag PHP)
+-> <? ?> - short open tag
+-> <% %> - ASP tag
+-> <?= ?> - short tag PHP (para executar somente 1 comando)
+-> echo/print "frase/códigoHTML/etc" - para escrever na tela do navegador
+-> \u{codigo} - para escrever um "codigo" unicode, um emoji
+-> phpinfo("parametro") - para voltar as informações do PHP que está sendo utilizado, pode receber um "parâmetro"
+
+
+
+
+----------------------- Aula 18 -----------------------
+
+-------- Módulos (Script PHP por dentro) --------
+
+--- PHP ---
+-> $variavel - para declarar uma "variavel"
+-> date_default_timezone_set("America/Sao_Paulo") - para deixar o valor padrão de zona como sendo Brasil (GMT-3)
+-> date("d/M/Y") - retorna o dia em número, mês simplificado e ano em número
+-> date("G:i:s T") - retorna a hora, minuto, segundos e a zona do horário do servidor
+-> "texto1" . "texto2" - o "." serve para concatenar duas strings
+
+
+
+
+----------------------- Aula 19 -----------------------
+
+-------- Módulos (Configurando php.ini) --------
+
+-> No "php.ini" é possível configurar diversas coisas no código, exemplo: mostrar onde está dando erro no navegador (ele se localiza na pasta do xampp/php)
+
+
+
+
+----------------------- Aula 20 -----------------------
+
+-------- Módulos (Variáveis constantes) --------
+
+-> A variável fica armazenada no servidor do PHP
+-> const VARIAVEL - para declarar uma constante no PHP
+-> Regras para nomes de identificadores:
+    -> Variáveis sempre começam com o símbolo $
+    -> O segundo pode ser letra ou o símbolo _
+    -> Aceita caracteres [a-z], [A-Z], [0-9] e [_]
+    -> Aceita caracteres da tabela ASCII a partir de 128
+    -> Aceita caracteres acentuados como á, õ, ç
+    -> A linguagem é case sensitive em relação aos nomes
+    -> Nomes especiais como $this não podem ser usados
+-> Recomendações para dar nomes:
+    -> Tente dar nomes claros e de fácil identificação
+    -> Evite nomes muito curtos ou muito longos
+    -> Defina um padrão e siga todo o projeto
+    -> Para variáveis, dê preferência a letras minúsculas
+    -> Para constantes, dê preferência a letras maiúsculas
+    -> Use camelCase para métodos e atributos
+    -> Use SNAKE_CASE para nomear constantes
+
+
+
+
+----------------------- Aula 21 -----------------------
+
+-------- Módulos (Tipos primitivos) --------
+
+-> Tipos primitivos:
+    -> Escalares
+        -> string - sequência de letras, números e símbolos, sempre representadas entre aspas.
+            -> "123", "abc", "1a2b3c", ...
+        -> int/integer - um valor numérico inteiro, naõ tem parte decimal
+            -> 0x1A, 1, -1, 0b1011...
+            -> 0x - número em hexadecimal
+            -> 0b - número em binário
+            -> 0 - número em octal
+        -> float/double/real - um valor numérico Real, tem parte decimal (real parou de ser usado na atualização 7.4 em diante)
+            -> 15.2, -31.2, 3e2, ...
+        -> bool/boolean - um valor lógico ou Booleano, que aceita apenas os valores verdadeiro ou falso (true ou false)
+            -> true, false, 1, 0, ...
+    -> Compostos
+        -> Array
+        -> Object
+    -> Especiais
+        -> null
+        -> resource
+        -> callabe
+        -> mixed
+
+--- PHP ---
+-> $var_dump(variavel) - para mostrar o tipo da variável e o valor dentro dela
+-> $variavel = (int) 32.5 - forçando a "variavel" a ser do tipo "int" através do cast (coerção)
+
+
+
+
+----------------------- Aula 22 -----------------------
+
+-------- Módulos (Strings PHP) --------
+
+-> Existem quatro tipos de string em PHP:
+    -> Double quoted (aspas duplas)
+        -> Existe interpretação do conteúdo
+    -> Single quoted (aspas simples)
+        -> Não há interpretação de conteúdo
+    -> Heredoc
+        -> Formatação de texto em mais de 1 linha e segue a mesma formatação do que está escrito
+    -> Nowdoc
+-> Não é possível colocar valores constantes no echo ou print, necessita de concatenação
+-> Sequência de Escape:
+    -> \n - nova linha
+    -> \t - tabulação horizontal
+    -> \\ - mostrar barra invertida
+    -> \$ - mostrar o sifrão
+    -> \u{} - unicode
+
+--- PHP ---
+-> "string1" . "string2" - para concatenar strings
+-> echo "%nome \"Minotauro\" $sobrenome" - para escapar caracteres, utilize o "\"
+-> echo <<< TESTE
+    Olá galera do $canal
+            Tudo bem com vocês?
+        Como está sendo esse ano de $ano?
+    Abraços! \u{1F596}
+TESTE - tudo que está entre TESTE será exibido exatamente como foi escrito e será interpretado (heredoc)
+-> echo <<< 'TESTE'
+    Olá galera do $canal
+            Tudo bem com vocês?
+        Como está sendo esse ano de $ano?
+    Abraços! \u{1F596}
+TESTE - tudo que está entre 'TESTE' será exibido exatamente como foi escrito e não será interpretado (nowdoc)
+
+----------------------- Aula 23 -----------------------
+
+-------- Módulos (Interação formulários (parte 1)) --------
+
+-> Em todo formulário tem:
+    -> <section> - para declarar uma seção e configurar o formulário
+        -> <form>
+            -> action - determina para qual local vai ser destinado os dados do formulário, geralmente é para um PHP
+            -> method - determina qual método será utilizado no HTTP, geralmente usa-se GET e POST
+        -> <label>
+            -> for - da um nome para a label para identificação
+        -> <input>
+            -> type - para indicar o tipo de input desejado
+            -> name - para nomear o campo para facilitar a obtenção de dados
+            -> id - para dar um identificador único para o campo para melhorar a validação de dados
+
+
+
+
+----------------------- Aula 24 -----------------------
+
+-------- Módulos (Interação formulários (parte 2)) --------
+
+-> <a href="javascript:history.go(-1)"> - para voltar para a página anterior
+
+--- PHP ---
+-> var_dump($_GET/$_POST) - retorna os arrays das variáveis super globais que estão em uso na página PHP
+-> $_REQUEST - super global que é uma junção de $_GET, $_POST e $_COOKIES, você pode utilizar "method" do "<form>" como sendo "get" ou "post" que não haverá problema algum
+-> $variavel = $_GET["algo"] - atribui o valor de "algo" para a "variavel" através de um método HTTP GET
+
+
+
+
+----------------------- Aula 25 -----------------------
+
+-------- Módulos (Operadores aritméticos) --------
+
+-> O PHP tem o símbolo "+" como identificador de soma e somente soma, a partir da versão 8 ele tenta converter duas strings somadas por exemplo, caso sejam números ele soma e o resultado é normal, já na versão antes do 8 ele tenta converter tudo que for número á esquerda para fazer a soma, independente se tem algum outro valor do lado direito dentro da string que não seja numérico. Caso for versão antiga e somar duas strings de somente letras, o resultado será 0
+-> Operadores aritméticos:
+    -> + - soma
+    -> - - subtração
+    -> * - multiplicação
+    -> / - divisão real
+    -> % - módulo
+    -> ** - exponenciação (não funciona antes da versão 5)
+
+
+
+
+----------------------- Aula 26 -----------------------
+
+-------- Módulos (Expressões aritméticas) --------
+
+-> Ordem de precedência de operações no PHP:
+    -> ()
+    -> **
+    -> *, /, %
+    -> +, -
+
+
+
+
+----------------------- Aula 27a -----------------------
+
+-------- Módulos (Funções aritméticas) --------
+
+--- PHP ---
+-> abs(valor) - faz o valor absoluto de um "valor"
+-> base_convert(valor, base_original, base_destino) - faz a conversão do "valor" da "base_original" para a "base_destino"
+-> ceil(valor) - faz arredondamento para cima do "valor"
+-> floor(valor) - faz arredondamento para baixo do "valor"
+-> round(valor) - faz arredondamento aritmético do "valor"
+-> hypot(valor) - faz o cálculo de hipetenusa do "valor"
+-> intdiv(valor) - faz uma divisão inteira do "valor"
+-> min(valores...) - pega o valor mínimo dos "valores..."
+-> max(valores...) - pega o valor máximo dos "valores..."
+-> pi()/M_PI - para retornar o valor de PI
+-> pow(base, expoente) - faz a potenciação da "base" pelo "expoente"
+-> sin(valor) - retorna o seno do "valor"
+-> cos(valor) - retorna o cosseno do "valor"
+-> tan(valor) - retorna a tangente do "valor"
+-> sqrt(valor) - raiz quadrada do "valor"
+
+
+
+
+----------------------- Aula 27b -----------------------
+
+-------- Módulos (Cinco desafios) --------
+
+
+----------------------- Aula 28 -----------------------
+
+-------- Módulos (Antecessor e Sucessor) --------
+
+--- PHP ---
+-> onclick="javascript:window.location.href='index.html'" - para chamar uma página diretamente pelo javascript
+
+
+
+
+----------------------- Aula 29 -----------------------
+
+-------- Módulos (Sorteador de números) --------
+
+-> Utilizar sempre o mt_rand() para sortear números aleatórios, pois é melhor e mais seguro
+
+--- PHP ---
+-> rand(minimo, maximo) - sorteador de números aleatórios com um "minimo" e um "maximo", ele utiliza o algoritmo Linear Congrential Generator
+-> mt_rand(minimo, maximo) - sorteador de números aleatórios com um "minimo" e um "maximo", ele utiliza o algirtmo Mesenne Twister, que é mais rápido e mais confiável que o "rand()"
+-> random_int(minimo, maximo) - sorteador de números aleatórios com um "minimo" e um "maximo", ele gera números criptograficamente seguros e também é a mais lenta
+-> onclick="javascript:window.location.reload()" - para recarregar a página atual
+
+
+
+
+----------------------- Aula 30 -----------------------
+
+-------- Módulos (Conversor de Moedas v1) --------
+
+--- PHP ---
+-> number_format(valor, casas, "decimais", "milhares") - faz a formatação do "valor" com uma quantidade de "casas" decimais e faz a separação da casa de "decimais" e separação da casa de "milhares"
+-> numfmt_create("linguagem", NumberFormatter::CURRENCY) - para criar um fomatador de dinheiro do tipo brasileiro e passar por parâmetro para a função "numfmt_format_currency"
+-> numfmt_format_currency(padrao_desejado, valor, "tipo_da_moeda") - retorna o "valor" do "tipo_de_moeda" desejada com o "padrao_desejado"
+
+----------------------- Aula 31 -----------------------
+
+-------- Módulos (Conversor de Moedas v2) --------
+
+--- PHP ---
+-> json_decode(file_get_contents(url), true/false) - para decodificar um arquivo do tipo json para consumo de uma API, já o valor "true" se refere a utilizar um array como saída, se fosse "false" então seria um objeto
+-> date("m-d-Y", strtotime("-7 days")) - faz retornar a data no formato "mês-dia-ano" e diminuir 7 dias através da função 'strtotime("-7 days")'
+
+
+
+
+----------------------- Aula 32 -----------------------
+
+-------- Módulos (Analisador real) --------
+
+
+----------------------- Aula 33 -----------------------
+
+-------- Módulos (Super globais PHP) --------
+
+-> É possível enviar dados do tipo GET e POST ao mesmo tempo
+-> Sempre coloque o cookie como a primeira coisa do script
+
+--- PHP ---
+-> Super globais do PHP:
+    -> $_GET - envia dados através da url
+    -> $_POST - envia dados através do cabeçalho
+    -> $_COOKIES - envia dados temporários para pastas temporárias do computador para melhorar a performance do usuário no site
+    -> $_REQUEST - envia dados tanto do $_GET, $_POST e $_COOKIES ao mesmo tempo
+    -> $_FILES - se fizer upload de arquivos, esta super global consegue capturá-los
+    -> $_SESSION - variáveis que não são perdidas entre as navegações de páginas do seu site
+    -> $_ENV - variáveis de ambiente do servidor
+    -> $_SERVER - todas as informações do servidor
+    -> $_GLOBALS - mostra todas as outras informações das globais existentes
+-> setcookie("nome_do_cookie", "valor_do_cookie", tempo_de_duracao) - faz um cookie com o "nome_do_cookie", "valor_do_cookie" e o "tempo_de_duracao" do cookie
+    -> setcookie("dia-da-semana", "segunda", time() + 3600) - 3600 se diz a segundos, que equivale a 1 hora
+-> session_start() - para começar uma sessão naquele script
+-> $_SESSION["chave"] = "valor" - faz com que a sessão tenha uma "chave" e um "valor" associado
+
+
+
+
+----------------------- Aula 34 -----------------------
+
+-------- Módulos (Formulários retroalimentados) --------
+
+-> É possível retroalimentar o formulário através do parâmetro do "form action="<?= $_SERVER['PHP_SELF'] ?>"", passando o valor do próprio arquivo como parâmetro através da super global
+-> Para que os campos fiquem com o valor e não desapareçam, declare as variáveis contendo os valores do GET ou POST e na tag input coloque "value="<?= variavel?>""
+
+
+
+
+----------------------- Aula 35 -----------------------
+
+-------- Módulos (Desafios) --------
+
+
+----------------------- Aula 36 -----------------------
+
+-------- Módulos (Anatomia de uma divisão (Desafio 06)) --------
+
+
+----------------------- Aula 37 -----------------------
+
+-------- Módulos (Salário mínimo (Desafio 07)) --------
+
+
+----------------------- Aula 38 -----------------------
+
+-------- Módulos (Raízes (Desafio 08)) --------
+
+
+----------------------- Aula 39 -----------------------
+
+-------- Módulos (Médias aritméticas (Desafio 09)) --------
+
+
+----------------------- Aula 40 -----------------------
+
+-------- Módulos (Idade por ano (Desafio 10)) --------
+
+
+----------------------- Aula 41 -----------------------
+
+-------- Módulos (Reajuste de preços (Desafio 11)) --------
